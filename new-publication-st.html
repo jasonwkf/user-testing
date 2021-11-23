@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html class="no-js ">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>SPH : Singapore Press Holdings | </title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/common/favicon.png">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <!-- if lt IE 10p.browserupgrade You are using an strong outdated browser. Please a(href='http://browsehappy.com/') upgrade your browser to improve your experience.
+    -->
+    <header class="fluid-container" id="the-header">
+      <!-- Notifier - START-->
+      <div class="comp comp-holder ie-notifier d-none">
+        <div class="container">
+          <div class="row justify-content-center">
+            <ul>
+              <li><img src="images/icons/error-blacksmall.svg"/>
+                <p>You are using an <strong>unsupported browser/version. </strong>Please upgrade to a supported browser.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <script>
+          (function(){
+            'use strict'
+            document.addEventListener('DOMContentLoaded', function(){
+              let userBrowser = window.navigator.userAgent
+              console.log(userBrowser, 'browsercheck')
+              let msie = userBrowser.indexOf('MSIE')
+              let trident = userBrowser.indexOf('Trident/')
+              if (msie > 0) {
+                $('.ie-notifier').removeClass('d-none') 
+              }
+          
+              if (trident > 0) {
+                $('.ie-notifier').removeClass('d-none') 
+              }
+            })
+          })(this, this.document)
+        </script>
+        <!-- Notifier - End-->
+      </div>
+      <div class="top-head">
+        <div class="row">
+          <div class="col-3">
+            <div class="logo-container"><a href="index.html" data-ajax="false"><img src="images/logos/sph-logo.svg"></a></div>
+          </div>
+          <div class="col-9">
+            <div class="top-navi">
+              <ul class="top-menu desk-only">
+                <li><a href="promotions.html">Promotions</a></li>
+                <li><a href="corporate-plans.html">Corporate<span class="corp-plans-new">NEW</span></a></li>
+                <li class="top-help"><a href="javascript:;">Help</a>
+                  <ul class="top-help-menu">
+                    <li><a href="customer-care.html">Customer Care</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="useful-links.html">Useful Links</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                  </ul>
+                </li>
+                <li class="lang-switcher"><a href="javascript:;" id="cur-lang">English</a>
+                  <ul class="top-help-menu">
+                    <li><a href="#" id="en" data-val="English">English</a></li>
+                    <li><a href="#" id="zh" data-val="Chinese">Chinese</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="navi-menu">
+                <li class="nav-item" id="nav-item-1"><a href="#" data-ajax="false" id="account-logged-in"><img src="images/icons/user-default.svg"><span>Login</span></a>
+                </li>
+                <li class="main-nav nav-item" id="nav-item-2"><a href="#" data-ajax="false"><img src="images/icons/menu-default.svg"></a></li>
+              </ul>
+              <div class="nav-drop" for="nav-item-2">
+                <ul class="in-navi-menu">
+                  <li class="nav-item close-menu"><a href="#" data-ajax="false"><img src="images/icons/close-cross.svg"></a></li>
+                </ul>
+                <ul class="main-nav-menu" id="nav-child-2">
+                  <li class="nav-child-item"><a href="index.html" target="_blank" data-ajax="false">Home</a></li>
+                  <li class="nav-child-item"><a href="promotions.html" target="_blank" data-ajax="false">Promotions</a></li>
+                  <li class="nav-child-item got-child"><a href="#" data-ajax="false">News Publications</a>
+                    <ul class="second-lvl-nav">
+                      <li><a href="publication-st.html" target="_blank" data-ajax="false">The Straits Times</a></li>
+                    </ul>
+                    <ul class="second-lvl-nav">
+                      <li><a href="publication-zb.html" target="_blank" data-ajax="false">Lianhe Zaobao</a></li>
+                    </ul>
+                    <ul class="second-lvl-nav">
+                      <li><a href="#" target="_blank" data-ajax="false">The Business Times</a></li>
+                    </ul>
+                    <ul class="second-lvl-nav">
+                      <li><a href="#" target="_blank" data-ajax="false">Berita Harian</a></li>
+                    </ul>
+                    <ul class="second-lvl-nav">
+                      <li><a href="#" target="_blank" data-ajax="false">Tamil Murasu</a></li>
+                    </ul>
+                    <ul class="second-lvl-nav">
+                      <li><a href="#" target="_blank" data-ajax="false">Tabla</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-child-item"><a href="#" target="_blank" data-ajax="false">Student Publications</a></li>
+                  <li class="nav-child-item"><a href="corporate-plans.html" target="_blank" data-ajax="false">Corporate<span class='corp-plans-new'>new</span></a></li>
+                  <li class="nav-child-item got-child"><a href="#" data-ajax="false">Help</a>
+                    <ul class="second-lvl-nav">
+                      <li><a href="customer-care.html" target="_blank" data-ajax="false">Customer Care</a></li>
+                    </ul>
+                    <ul class="second-lvl-nav">
+                      <li><a href="faq.html" target="_blank" data-ajax="false">FAQs</a></li>
+                    </ul>
+                    <ul class="second-lvl-nav">
+                      <li><a href="useful-links.html" target="_blank" data-ajax="false">Useful Links</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-child-item"><a href="contact-us.html" target="_blank" data-ajax="false">Contact</a></li>
+                  <li class="nav-child-item"><a href="pages.html" target="_blank" data-ajax="false">Pages</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Maintenance - START-->
+      <div class="comp comp-holder maintenance-notifier d-none">
+        <div class="container">
+          <div class="row justify-content-center">
+            <ul>
+              <li><img src="/images/icons/bell.svg"/>
+                <p>The website will be undergoing a scheduled maintenance in <strong>15 Minutes.  </strong>Services will be on hold during the upgrade. </p><a href="#" id="dismissBtn"><img class="maintenance-dismiss" src="/images/icons/close-icon-black.svg"/></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <script>
+          (function(){
+            'use strict'
+            document.addEventListener('DOMContentLoaded', function(){
+              var isMaintenance = false;
+              var getIeNotifierHeight;
+              var getHeaderHeight;
+              if ($('.ie-notifier').is(':visible')) {
+                getIeNotifierHeight = $('.ie-notifier').outerHeight()
+              } else {
+                getIeNotifierHeight = 0;
+              }
+              if (isMaintenance) {
+                $('.maintenance-notifier').removeClass('d-none')
+                getHeaderHeight = $('#the-header').outerHeight()
+                $('.maintenance-notifier').css('top', getHeaderHeight + getIeNotifierHeight + 'px')
+              }
+              $('#dismissBtn').click(function(){
+                $('.maintenance-notifier').fadeOut()
+              })
+            })
+          })(this, this.document)
+        </script>
+      </div>
+      <!-- Maintenance - END-->
+    </header>
+    <div class="window-overlay" id="overlayer">
+      <div class="ball-wrap">
+        <div class="bounceball"></div>
+        <div class="loading-msg"></div>
+      </div>
+    </div>
+    <div class="wrap fluid-container">
+      <main class="main">
+        <div class="page-content">
+          <div class="section-container">
+            <!-- Page Header - START-->
+            <div class="comp comp-page-header" id="hh-1">
+              <div class="comp-holder">
+                <div class="hero-image-bg resp-bg" style="background-color:undefined;background-image:url('images/placeholders/bt-header-img.jpg');" data-mob-bg="images/placeholders/mobile-bt-header-banner.jpg" data-des-bg="images/placeholders/bt-header-img.jpg">
+                  <div class="container">
+                    <div class="hero-header-text bt"><img src=" "/>
+                      <h2> </h2>
+                      <p class="subtext"> </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Page Header - END-->
+          </div>
+          <div class="section-container">
+            <div class="comp comp-publication-subscription-container">
+              <div class="comp-holder">
+                <div class="comp-publication-subscription-header">
+                  <div class="container">
+                    <div class="row justify-content-center">
+                      <ul class="pub-menu-top">
+                        <li class="pub-menu-item" data-id="subscription-plan" id="subscription-plan-cta"><a href="#subscription-plan">Subscription plans</a></li>
+                        <li class="pub-menu-item" data-id="comp-promo-bt-compare-plans" id="compare-plan-cta"><a href="javascript:;">Compare</a></li>
+                        <li class="pub-menu-item" data-id="bt-skycraper-faq" id="faq-cta"><a href="javascript:;">FAQ</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="comp-publication-subscription-menu-content" id="subscription-plan">
+                  <div class="container">
+                    <div class="row justify-content-center">
+                      <div class="col-12">
+                        <h2>Subscription Plans</h2>
+                        <p>You can try these filters to refine your search...</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="comp-publication-all-subscription">
+                  <div class="comp-publication-subscription-menu-tag">
+                    <div class="tag-menu"><a class="tag-menu-item is-active" href="javascript:;" data-id="single-plan-item">All</a><a class="tag-menu-item" href="javascript:;" data-id="js-featured">Featured</a><a class="tag-menu-item" href="javascript:;" data-id="js-no-contract">No contract</a><a class="tag-menu-item" href="javascript:;" data-id="js-print">Print</a><a class="tag-menu-item" href="javascript:;" data-id="js-personal">Individual</a><a class="tag-menu-item" href="javascript:;" data-id="js-family">Family</a><a class="tag-menu-item" href="javascript:;" data-id="js-corporate">Corporate</a></div>
+                  </div>
+                  <div class="container">
+                    <div class="row justify-content-center" id="all-plans">
+                      <div class="single-plan-item js-featured" id="news-tablet-edition">
+                        <div class="single-plan-item-header">
+                          <h3>News Tablet Edition</h3>
+                          <div class="feature-tag">
+                            <p>Featured</p>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-8 order-2 order-md-1">
+                            <div class="feature-list">
+                              <h4>Features:</h4>
+                              <ul>
+                                <li>
+                                  <p>Inclusive of Samsung Tablet with a 30-month Device Protection Plan</p>
+                                </li>
+                                <li>
+                                  <p>Unlock subscriber-only articles on the News Tablet, BT App, and businessstimes.com</p>
+                                </li>
+                                <li>
+                                  <p>E-paper with 2-week archive</p>
+                                </li>
+                                <li>
+                                  <p>BT app access on 1 device</p>
+                                </li>
+                                <li>
+                                  <p>SPH Rewards subscriber-only privileges</p>
+                                </li>
+                              </ul>
+                              <p class="add-on-reminder" style=" "><strong>Add print paper to your plan for only $15 more per month</strong></p>
+                            </div>
+                          </div>
+                          <div class="col-md-4 order-md-2" style=" ">
+                            <div class="media-container"><a href="https://youtu.be/dryF1hpGK4A" target="_blank"><img src="https://i.ytimg.com/vi/dryF1hpGK4A/mqdefault.jpg"/></a></div>
+                          </div>
+                        </div>
+                        <div class="plan-option-container">
+                          <div class="plan-option-title" style=" ">
+                            <div class="line-container"></div>
+                            <h3>Plan options</h3>
+                            <div class="line-container"></div>
+                          </div>
+                          <div class="plan-option-items">
+                            <div class="plan-option-wrapper plan-transition" id="slide-wrapper-0">
+                              <div class="plan-option-single current-plan" id="plan-0">
+                                <div class="plan-option-header" style=" ">
+                                  <div class="plan-option-image" style=" "><img src="images/placeholders/publication-plans/add-on-samsung.jpg"/></div>
+                                  <div class="plan-option-content">
+                                    <h4>LTE Model</h4>
+                                    <div class="plan-option-text"><p>Includes Samsung Galaxy Tab S6 Lite (LTE) <strong>worth $600</strong>&nbsp;! S Pen (in-box).</p></div><a class="view-more" href="#">
+                                      <h4>view more</h4></a>
+                                  </div>
+                                </div>
+                                <div class="plan-cta-container">
+                                  <div class="plan-price-container">
+                                    <p class="caption">Starting from</p>
+                                    <div class="price"><h2>$39.90/</h2><p>month</p></div>
+                                    <p class="contract-terms">30 months contract</p>
+                                  </div>
+                                  <div class="cta-container"><a class="cta-button full bt-orange" href="javascript:;">Subscribe now</a></div>
+                                </div>
+                              </div>
+                              <div class="plan-option-single" id="plan-1">
+                                <div class="plan-option-header" style=" ">
+                                  <div class="plan-option-image" style=" "><img src="images/placeholders/publication-plans/galaxy-tab.jpg"/></div>
+                                  <div class="plan-option-content">
+                                    <h4>WIFI Model</h4>
+                                    <div class="plan-option-text"><p>Includes a Samsung Galaxy Tab A7 (WIFI)  <strong>worth $500</strong>!</p></div>
+                                  </div>
+                                </div>
+                                <div class="plan-cta-container">
+                                  <div class="plan-price-container">
+                                    <p class="caption">Starting from</p>
+                                    <div class="price"><h2>$29.90/</h2><p>month</p></div>
+                                    <p class="contract-terms">30 months contract</p>
+                                  </div>
+                                  <div class="cta-container"><a class="cta-button full bt-orange" href="javascript:;">Subscribe now</a></div>
+                                </div>
+                              </div>
+                              <div class="plan-option-single" id="plan-2">
+                                <div class="plan-option-header" style=" ">
+                                  <div class="plan-option-image" style=" "><img src="images/placeholders/publication-plans/galaxy-tab.jpg"/></div>
+                                  <div class="plan-option-content">
+                                    <h4>IOS Model</h4>
+                                    <div class="plan-option-text"><p>Includes an apple ipad (WIFI)  <strong>worth $1300</strong>!</p></div>
+                                  </div>
+                                </div>
+                                <div class="plan-cta-container">
+                                  <div class="plan-price-container">
+                                    <p class="caption">Starting from</p>
+                                    <div class="price"><h2>$39.90/</h2><p>month</p></div>
+                                    <p class="contract-terms">30 months contract</p>
+                                  </div>
+                                  <div class="cta-container"><a class="cta-button full bt-orange" href="javascript:;">Subscribe now</a></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="carousel-thb skycraper-carousel">
+                            <div class="circle-container">
+                              <div class="circ-thb active" data-id="0" id="plan-thb-0"></div>
+                              <div class="circ-thb" data-id="1" id="plan-thb-1"></div>
+                              <div class="circ-thb" data-id="2" id="plan-thb-2"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="single-plan-item js-featured js-personal" id="personal-edition-digital-only">
+                        <div class="single-plan-item-header">
+                          <h3>Personal Edition Digital Only</h3>
+                          <div class="feature-tag">
+                            <p>Featured</p>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-8 order-2 order-md-1">
+                            <div class="feature-list">
+                              <h4>Features:</h4>
+                              <ul>
+                                <li>
+                                  <p>Unlock subscriber-only articles on the BT App, and businessstimes.com</p>
+                                </li>
+                                <li>
+                                  <p>BT app access on 2 devices</p>
+                                </li>
+                                <li>
+                                  <p>SPH Rewards subscriber-only privileges</p>
+                                </li>
+                              </ul>
+                              <p class="add-on-reminder" style=" "><strong>Add print paper to your plan for only $15 more per month</strong></p>
+                            </div>
+                          </div>
+                          <div class="col-md-4 order-md-2" style="display: none;">
+                            <div class="media-container"><a target="_blank"><img/></a></div>
+                          </div>
+                        </div>
+                        <div class="plan-option-container">
+                          <div class="plan-option-title" style=" ">
+                            <div class="line-container"></div>
+                            <h3>Plan options</h3>
+                            <div class="line-container"></div>
+                          </div>
+                          <div class="plan-option-items">
+                            <div class="plan-option-wrapper plan-transition" id="slide-wrapper-1">
+                              <div class="plan-option-single current-plan" id="plan-0">
+                                <div class="plan-option-header" style=" ">
+                                  <div class="plan-option-image" style=" "><img src="images/placeholders/publication-plans/add-on-samsung.jpg"/></div>
+                                  <div class="plan-option-content">
+                                    <h4>Contract plan with free gift</h4>
+                                    <div class="plan-option-text"><ul><li>Receive a 6-month <strong>Kaspersky Security Cloud Personal Plan</strong> (worth $49.98)</li><li>Compatible with: Android, iOS, macOS</li></ul></div><a class="view-more" href="#">
+                                      <h4>view more</h4></a>
+                                  </div>
+                                </div>
+                                <div class="plan-cta-container">
+                                  <div class="plan-price-container">
+                                    <p class="caption">Starting from</p>
+                                    <div class="price"><h2>$9.90/</h2><p>month</p></div>
+                                    <p class="contract-terms">6 months contract</p>
+                                  </div>
+                                  <div class="cta-container"><a class="cta-button full bt-orange" href="javascript:;">Subscribe now</a></div>
+                                </div>
+                              </div>
+                              <div class="plan-option-single" id="plan-1">
+                                <div class="plan-option-header" style=" ">
+                                  <div class="plan-option-image" style="display: none;"><img/></div>
+                                  <div class="plan-option-content">
+                                    <h4>No contract plan</h4>
+                                    <div class="plan-option-text"><p>Cancel anytime</p></div>
+                                  </div>
+                                </div>
+                                <div class="plan-cta-container">
+                                  <div class="plan-price-container">
+                                    <p class="caption">Starting from</p>
+                                    <div class="price"><h2>$9 .90/</h2><p>month</p></div>
+                                    <p class="contract-terms">6 months contract</p>
+                                  </div>
+                                  <div class="cta-container"><a class="cta-button full bt-orange" href="javascript:;">Subscribe now</a></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="carousel-thb skycraper-carousel">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="single-plan-item js-family js-no-contract" id="family-digital-only">
+                        <div class="single-plan-item-header">
+                          <h3>Family Digital Only</h3>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-8 order-2 order-md-1">
+                            <div class="feature-list">
+                              <h4>Features:</h4>
+                              <ul>
+                                <li>
+                                  <p>Unlock subscriber-only articles on the BT App, and businessstimes.com</p>
+                                </li>
+                                <li>
+                                  <p>BT app access on 4 devices</p>
+                                </li>
+                                <li>
+                                  <p>E-Paper with 2 weeks archive</p>
+                                </li>
+                                <li>
+                                  <p>SPH Rewards subscriber-only privileges</p>
+                                </li>
+                              </ul>
+                              <p class="add-on-reminder" style="display: none;"><strong></strong></p>
+                            </div>
+                          </div>
+                          <div class="col-md-4 order-md-2" style="display: none;">
+                            <div class="media-container"><a target="_blank"><img/></a></div>
+                          </div>
+                        </div>
+                        <div class="plan-option-container">
+                          <div class="plan-option-title" style="display: none;">
+                            <div class="line-container"></div>
+                            <h3>Plan options</h3>
+                            <div class="line-container"></div>
+                          </div>
+                          <div class="plan-option-items">
+                            <div class="plan-option-wrapper plan-transition" id="slide-wrapper-2">
+                              <div class="plan-option-single current-plan" id="plan-0">
+                                <div class="plan-option-header" style=" ">
+                                  <div class="plan-option-image" style=" "><img src="images/placeholders/publication-plans/add-on-samsung.jpg"/></div>
+                                  <div class="plan-option-content">
+                                    <h4>Contract plan with free gift</h4>
+                                    <div class="plan-option-text"><ul><li>Receive a 6-month Kaspersky Security Cloud Personal Plan (worth $49.98)</li><li>Compatible with: Android, iOS, macOS</li></ul></div>
+                                  </div>
+                                </div>
+                                <div class="plan-cta-container">
+                                  <div class="plan-price-container">
+                                    <p class="caption">Starting from</p>
+                                    <div class="price"><h2>$32.90/</h2><p>month</p></div>
+                                    <p class="contract-terms">No contract</p>
+                                  </div>
+                                  <div class="cta-container"><a class="cta-button full bt-orange" href="javascript:;">Subscribe now</a></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="carousel-thb skycraper-carousel">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="single-plan-item js-family js-no-contract js-print" id="family-digital-print">
+                        <div class="single-plan-item-header">
+                          <h3>Family Digital + Print</h3>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-8 order-2 order-md-1">
+                            <div class="feature-list">
+                              <h4>Features:</h4>
+                              <ul>
+                                <li>
+                                  <p>Unlock subscriber-only articles on the BT App, and businessstimes.com</p>
+                                </li>
+                                <li>
+                                  <p>BT app access on 4 devices</p>
+                                </li>
+                                <li>
+                                  <p>E-Paper with 2 weeks archive</p>
+                                </li>
+                                <li>
+                                  <p>E-Paper with 2 weeks archive</p>
+                                </li>
+                              </ul>
+                              <p class="add-on-reminder" style="display: none;"><strong></strong></p>
+                            </div>
+                          </div>
+                          <div class="col-md-4 order-md-2" style=" ">
+                            <div class="media-container"><a target="_blank"><img src="images/placeholders/publication-plans/businesstime-placeholder.jpg"/></a></div>
+                          </div>
+                        </div>
+                        <div class="plan-option-container">
+                          <div class="plan-option-title" style="display: none;">
+                            <div class="line-container"></div>
+                            <h3>Plan options</h3>
+                            <div class="line-container"></div>
+                          </div>
+                          <div class="plan-option-items">
+                            <div class="plan-option-wrapper plan-transition" id="slide-wrapper-3">
+                              <div class="plan-option-single current-plan" id="plan-0">
+                                <div class="plan-option-header" style="display: none;">
+                                  <div class="plan-option-image" style="display: none;"><img/></div>
+                                  <div class="plan-option-content">
+                                    <h4></h4>
+                                    <div class="plan-option-text"></div>
+                                  </div>
+                                </div>
+                                <div class="plan-cta-container">
+                                  <div class="plan-price-container">
+                                    <p class="caption">Starting from</p>
+                                    <div class="price"><h2>$32.90/</h2><p>month</p></div>
+                                    <p class="contract-terms">No contract</p>
+                                  </div>
+                                  <div class="cta-container"><a class="cta-button full bt-orange" href="javascript:;">Subscribe now</a></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="carousel-thb skycraper-carousel">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="single-plan-item js-corporate" id="corporate-plans">
+                        <div class="single-plan-item-header">
+                          <h3>Corporate Plans</h3>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-8 order-2 order-md-1">
+                            <div class="feature-list">
+                              <h4>Features:</h4>
+                              <ul>
+                                <li>
+                                  <p>Different plans for small, medium and large organizations.</p>
+                                </li>
+                                <li>
+                                  <p>Choose between digital only, print only or digital+print options</p>
+                                </li>
+                                <li>
+                                  <p>Now you can even buy news tablets in corporate plans!</p>
+                                </li>
+                                <li>
+                                  <p>E-paper with 2 weeks archive</p>
+                                </li>
+                                <li>
+                                  <p>SPH rewards subscriber-only privileges</p>
+                                </li>
+                              </ul>
+                              <p class="add-on-reminder" style="display: none;"><strong></strong></p>
+                            </div>
+                          </div>
+                          <div class="col-md-4 order-md-2" style="display: none;">
+                            <div class="media-container"><a target="_blank"><img/></a></div>
+                          </div>
+                        </div>
+                        <div class="plan-option-container">
+                          <div class="plan-option-title" style="display: none;">
+                            <div class="line-container"></div>
+                            <h3>Plan options</h3>
+                            <div class="line-container"></div>
+                          </div>
+                          <div class="plan-option-items">
+                            <div class="plan-option-wrapper plan-transition" id="slide-wrapper-4">
+                              <div class="plan-option-single current-plan" id="plan-0">
+                                <div class="plan-option-header" style="display: none;">
+                                  <div class="plan-option-image" style="display: none;"><img/></div>
+                                  <div class="plan-option-content">
+                                    <h4></h4>
+                                    <div class="plan-option-text"></div>
+                                  </div>
+                                </div>
+                                <div class="plan-cta-container">
+                                  <div class="plan-price-container">
+                                    <p class="caption">Starting from</p>
+                                    <div class="price"><h2>$32.90/</h2><p>month</p></div>
+                                    <p class="contract-terms">No contract</p>
+                                  </div>
+                                  <div class="cta-container"><a class="cta-button full bt-orange" href="coroporate-plans.html">Check out plans</a></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="carousel-thb skycraper-carousel">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="comp comp-promo-val-prop-list" id="bt-plans-include" style="background-color:null;">
+                  <div class="comp-holder">
+                    <div class="steps-container bt-plans-include">
+                      <h2>All plans include</h2>
+                      <div class="container">
+                        <div class="row justify-content-center">
+                          <div class="col-lg-3 col-md-4 col-sm-6 publication-plan-single"><img src="images/icons/infinity-icon.svg"/>
+                            <h6>Unlimited articles</h6>
+                            <p>Read as many articles as you want on The Business Times website</p>
+                          </div>
+                          <div class="col-lg-3 col-md-4 col-sm-6 publication-plan-single"><img src="images/icons/device-icon.svg"/>
+                            <h6>App access on 1 device</h6>
+                            <p>Upgrade plan for additional accesses.</p>
+                          </div>
+                          <div class="col-lg-3 col-md-4 col-sm-6 publication-plan-single"><img src="images/icons/newspaper-icon.svg"/>
+                            <h6>2 weeks news archive</h6>
+                            <p>Missed reading? Find the news in pdf format, just like a print paper.</p>
+                          </div>
+                          <div class="col-lg-3 col-md-4 col-sm-6 publication-plan-single"><img src="images/icons/gift-icon.svg"/>
+                            <h6>Exclusive subscriber previleges</h6>
+                            <p>(For residents in Singapore only)</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="comp publication-plans-container-default" id="comp-promo-bt-compare-plans">
+                  <div class="comp-holder">
+                    <div class="publication-plan-container">
+                      <h2>Compare all plans</h2>
+                      <div class="container">
+                        <div class="row publication-plan-overflow-x">
+                          <div class="publication-single-container">
+                            <div class="publication-plans-header">
+                              <h3>The Business Times News Tablet Edition</h3>
+                            </div>
+                            <div class="publication-plans-content">
+                              <p><strong>Cost</strong><br/>Starts from $29.9/month</p>
+                              <p><strong>Contract period</strong><br/>Add on for $15/month</p>
+                              <p><strong>Print paper</strong><br/>32 months</p>
+                              <p><strong>ePaper</strong><br/>Included</p>
+                              <p><strong>Web access</strong><br/>Included</p>
+                              <p><strong>App access device limit</strong><br/>Tablet + 1 device</p>
+                              <p><strong>News tablet access</strong><br/>Included</p>
+                            </div>
+                            <div class="publication-plans-cta-container"><a class="cta-button full cta-inquire" href="javascript:;">Subscribe</a></div>
+                          </div>
+                          <div class="publication-single-container">
+                            <div class="publication-plans-header">
+                              <h3>Personal Edition Digital Only</h3>
+                            </div>
+                            <div class="publication-plans-content">
+                              <p><strong>Cost</strong><br/>Starts from $9.90/month</p>
+                              <p><strong>Contract period</strong><br/>No contract</p>
+                              <p><strong>Print paper</strong><br/>None</p>
+                              <p><strong>ePaper</strong><br/>Included</p>
+                              <p><strong>Web access</strong><br/>1 device</p>
+                              <p><strong>App access device limit</strong><br/>2 device</p>
+                              <p><strong>News tablet access</strong><br/>NA</p>
+                            </div>
+                            <div class="publication-plans-cta-container"><a class="cta-button full cta-inquire" href="javascript:;">Subscribe</a></div>
+                          </div>
+                          <div class="publication-single-container">
+                            <div class="publication-plans-header">
+                              <h3>Family Digital Only</h3>
+                            </div>
+                            <div class="publication-plans-content">
+                              <p><strong>Cost</strong><br/>Starts from $32.90/month</p>
+                              <p><strong>Contract period</strong><br/>No contract</p>
+                              <p><strong>Print paper</strong><br/>None</p>
+                              <p><strong>ePaper</strong><br/>Included</p>
+                              <p><strong>Web access</strong><br/>1 device</p>
+                              <p><strong>App access device limit</strong><br/>4 device</p>
+                              <p><strong>News tablet access</strong><br/>NA</p>
+                            </div>
+                            <div class="publication-plans-cta-container"><a class="cta-button full cta-inquire" href="javascript:;">Subscribe</a></div>
+                          </div>
+                          <div class="publication-single-container">
+                            <div class="publication-plans-header">
+                              <h3>Family Digital + Print</h3>
+                            </div>
+                            <div class="publication-plans-content">
+                              <p><strong>Cost</strong><br/>Starts from $32.90/month</p>
+                              <p><strong>Contract period</strong><br/>No contract</p>
+                              <p><strong>Print paper</strong><br/>Included</p>
+                              <p><strong>ePaper</strong><br/>Included</p>
+                              <p><strong>Web access</strong><br/>1 device</p>
+                              <p><strong>App access device limit</strong><br/>4 device</p>
+                              <p><strong>News tablet access</strong><br/>NA</p>
+                            </div>
+                            <div class="publication-plans-cta-container"><a class="cta-button full cta-inquire" href="javascript:;">Subscribe</a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="comp comp-promo-accordian-hori  " id="bt-skycraper-faq" style="background-color:#F5F5F5;">
+                  <div class="comp-holder">
+                    <div class="accordian-container">
+                      <h2>Frequently Asked Questions</h2>
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-12">
+                            <div class="accodian-questions-container">
+                              <div class="accordian-single" id="acq-0">
+                                <div class="accordian-header" for="acq-0">
+                                  <p class="questions">Does this package come with a print copy delivered to my home?</p>
+                                </div>
+                                <div class="accordian-body" for="acq-0">
+                                  <div class="answer"><p>No, this is a digital subscription to The Business Times and it does not include the print newspaper.</p></div>
+                                </div>
+                              </div>
+                              <div class="accordian-single" id="acq-1">
+                                <div class="accordian-header" for="acq-1">
+                                  <p class="questions">How do I know if I’m eligible for this promotion?</p>
+                                </div>
+                                <div class="accordian-body" for="acq-1">
+                                  <div class="answer"><p>Yes.</p></div>
+                                </div>
+                              </div>
+                              <div class="accordian-single" id="acq-2">
+                                <div class="accordian-header" for="acq-2">
+                                  <p class="questions">How do I know if I am eligible for these subscription plans?</p>
+                                </div>
+                                <div class="accordian-body" for="acq-2">
+                                  <div class="answer"><p>All corporate subscribers with a registered commercial address are eligible to subscribe.</p><p>Individual subscribers with a residential address can browse our subscription packages at <a href='www.subscribe.sph.com.sg'>www.subscribe.sph.com.sg.</a></p></div>
+                                </div>
+                              </div>
+                              <div class="accordian-single" id="acq-3">
+                                <div class="accordian-header" for="acq-3">
+                                  <p class="questions">When will the billing for my subscription start?</p>
+                                </div>
+                                <div class="accordian-body" for="acq-3">
+                                  <div class="answer"><p>Your subscription will officially start within 1 day from the date of your purchase.</p><p>Your first billing will begin 2-3 working days after your purchase and will cover the first period of your subscription (be it monthly recurring or yearly payments) from your official subscription start date.</p><p>See table below for a subscription purchased on 1 Jun 2020 as an illustration:</p><div class='table-responsive'><table class='table'><tbody><tr><td><br></td><td><br></td><td><p><strong>Monthly recurring</strong></p></td><td><p><strong>Yearly</strong></p></td></tr><tr><td rowspan='2'><p><strong>First payment</strong></p></td><td><p>When will I be charged?</p></td><td><p>2-3 working days after your date of purchase</p></td><td><p>2-3 working days after your date of purchase</p></td></tr><tr><td><p>How much will I be charged?</p></td><td><p> Subscription fee for the first month, i.e. 3 June, 2020 to 30 June, 2020</p></td><td><p> Subscription fee for the first year, i.e. 3 June, 2020 to 31 May, 2021</p></td></tr><tr><td rowspan='2'><p><strong>Second payment</strong></p></td><td><p>When will I be charged?</p></td><td><p>1 July, 2020</p></td><td rowspan='2'><p>Cycle repeats upon renewal of subscription</p></td></tr><tr><td><p>How much will I be charged?</p></td><td><p> Subscription fee for the second month, i.e. July 1, 2020 to July 31, 2020</p></td></tr></tbody></table></div></div>
+                                </div>
+                              </div>
+                              <div class="accordian-single" id="acq-4">
+                                <div class="accordian-header" for="acq-4">
+                                  <p class="questions">How many concurrent accesses do I get with each seat?</p>
+                                </div>
+                                <div class="accordian-body" for="acq-4">
+                                  <div class="answer"><p>You get 1 access to the businesstimes.com.sg and 1 access to the BT app concurrently.</p></div>
+                                </div>
+                              </div>
+                              <div class="accordian-single rest" id="acq-5">
+                                <div class="accordian-header" for="acq-5">
+                                  <p class="questions">What happens if I want to terminate my subscription? </p>
+                                </div>
+                                <div class="accordian-body" for="acq-5">
+                                  <div class="answer"><p>You can call our Customer Service Hotline at 6388 3838 or email <a href='mailto:circs@sph.com.sg<'>circs@sph.com.sg</a> for assistance.</p></div>
+                                </div>
+                              </div>
+                              <div class="accordian-single rest" id="acq-6">
+                                <div class="accordian-header" for="acq-6">
+                                  <p class="questions">How do I make payment?</p>
+                                </div>
+                                <div class="accordian-body" for="acq-6">
+                                  <div class="answer"><p>We accept various credit cards, cheques, bank transfers etc.</p></div>
+                                </div>
+                              </div>
+                              <div class="accordian-single rest" id="acq-7">
+                                <div class="accordian-header" for="acq-7">
+                                  <p class="questions">Can’t find what you’re looking for?</p>
+                                </div>
+                                <div class="accordian-body" for="acq-7">
+                                  <div class="answer"><p>You can call our Customer Service Hotline at 6388 3838 or email <a href='mailto:circs@sph.com.sg'>circs@sph.com.sg</a> for assistance.</p><p>Our Customer Service Hotline operates from Mon – Fri, 8.30am to 6pm, excluding Public Holidays.</p></div>
+                                </div>
+                              </div>
+                              <div class="accordian-lazy-load-trigger"><a class="cta-button inverse" href="#" id="accordian-ll-btn">Load more</a>
+                              </div>
+                              <div class="accordian-question-footer"><a href="#">For more detailed Terms and Conditions, please click here.</a></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <footer class="fluid-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-9 col-md-3 col newspaper-links">
+            <div class="footer-navi">
+              <ul class="footer-menu">
+                <li>
+                  <p class="link-cat">About</p>
+                  <ul>
+                    <li><a href="#">Promotions</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Personal Data Protection</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col company-links">
+            <div class="footer-navi">
+              <div class="contact-container">
+                <p class="link-cat">Contact Us</p>
+                <div class="contact-details">
+                  <p class="desk-only"><strong>Write to us</strong></p>
+                  <p class="mob-only"><strong>Write to us</strong></p><a href="mailto:circ@sph.com.sg">circ@sph.com.sg</a>
+                  <p class="desk-only"><strong>For corporate</strong></p>
+                  <p class="mob-only"><strong>For corporate</strong></p><a href="mailto:corporate@sph.com.sg">corporate@sph.com.sg</a>
+                  <p class="desk-only"><strong>Send us a message</strong></p>
+                  <p class="mob-only"><strong>For corporate</strong></p><a href="#">Online form</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 col-md-4 offset-md-1 col newsletter-footer">
+            <div class="logo-container"><a href="index.html" data-ajax="false"><img src="images/logos/sph-logo-white.svg"></a></div>
+          </div>
+        </div>
+        <div class="copy-container"></div>
+        <div class="row">
+          <div class="col-12">
+            <div class="copy"><span>Copyright © 2021 SPH MEDIA LIMITED. Regn No. 202120748H All Rights Reserved. <br></span>1000 Toa Payoh North Annexe Level 6, News Centre Singapore 318994</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="helper-box-overlay"></div>
+    <div class="lightbox-overlay"></div>
+    <div class="sph-lightbox" id="common">
+      <div class="custom-ligthbox">
+        <div class="close-lightbox" for="common">
+          <div class="close-wrapper"><span>Close</span><img src="images/icons/close-icon-black.svg"></div>
+        </div>
+        <div class="lightbox-content">
+          <div class="window-overlay lightbox" id="overlayer">
+            <div class="ball-wrap">
+              <div class="bounceball"></div>
+            </div>
+          </div>
+          <div class="lightbox-body" id="lbody"></div>
+          <div id="error"></div>
+        </div>
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+    <script src="js/skyscrapper.js"></script>
+  </body>
+</html>

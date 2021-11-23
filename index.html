@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html class="no-js ">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>SPH : Singapore Press Holdings | </title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/common/favicon.png">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/user-research.css">
+  </head>
+  <body class="page-research">
+    <!-- if lt IE 10p.browserupgrade You are using an strong outdated browser. Please a(href='http://browsehappy.com/') upgrade your browser to improve your experience.
+    -->
+    <header class="fluid-container js-research" id="the-header">
+      <div class="top-head">
+        <div class="row">
+          <div class="col-3">
+            <div class="logo-container"><a href="index.html" data-ajax="false"><img src="images/logos/sph-logo.svg"></a></div>
+          </div>
+          <div class="col-9">
+            <div class="top-navi"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="window-overlay" id="overlayer">
+      <div class="ball-wrap">
+        <div class="bounceball"></div>
+        <div class="loading-msg"></div>
+      </div>
+    </div>
+    <div class="wrap fluid-container">
+      <main class="main">
+        <div class="page-user-research">
+          <div class="section-container">
+            <div class="section-body">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-md-6 col-lg-5">
+                    <div class="section-article">
+                      <div class="header-container"><img src="./images/placeholders/user-research-login-image.png">
+                        <h2>DMP user research</h2>
+                      </div>
+                      <div class="content-container">
+                        <form class="contact-style">
+                          <p class="error-msg" id="login-err" style="text-align: center;"></p>
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="form-element-text">
+                                <input class="personal-ele" type="text" id="username" name="username" data-err="1" required>
+                                <label for="username">Username</label>
+                              </div>
+                              <p class="error-msg" id="username-err" style="margin-left: 15px;">Your username is invalid.</p>
+                            </div>
+                            <div class="col-12">
+                              <div class="form-element-text">
+                                <input class="personal-ele" type="password" id="password" name="password" data-err="1" required>
+                                <label for="password">Password</label>
+                              </div>
+                              <p class="error-msg" id="password-err" style="margin-left: 15px;">Your password is invalid.</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-12">
+                              <button class="cta-button full form-submit-btn" id="user-research-subimit" style="margin-bottom: 20px;">Enter</button>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div class="helper-box-overlay"></div>
+    <div class="lightbox-overlay"></div>
+    <div class="sph-lightbox" id="common">
+      <div class="custom-ligthbox">
+        <div class="close-lightbox" for="common">
+          <div class="close-wrapper"><span>Close</span><img src="images/icons/close-icon-black.svg"></div>
+        </div>
+        <div class="lightbox-content">
+          <div class="window-overlay lightbox" id="overlayer">
+            <div class="ball-wrap">
+              <div class="bounceball"></div>
+            </div>
+          </div>
+          <div class="lightbox-body" id="lbody"></div>
+          <div id="error"></div>
+        </div>
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+    <script src="js/user-research.js"></script>
+  </body>
+</html>
