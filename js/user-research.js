@@ -45,7 +45,7 @@ $(function () {
             console.log(obj,'obj');
 
             localStorage.setItem("username", JSON.stringify(obj));
-            window.location.href='new-publication-bt.html';
+            window.location.href='new-publication-st.html';
             $('#login-err').show().text(' ');
             break;
           } else {
