@@ -1,9 +1,6 @@
 
 $(function () {
-  var errorMsg = localStorage.getItem('login_error') ? localStorage.getItem('login_error'): null;
-  if (errorMsg) {
-    $('#login-err').show().text(errorMsg);
-  }
+  localStorage.removeItem('username');
 
   $('#username').focusout(function () {
     checkEmptyField("username");
@@ -39,7 +36,7 @@ $(function () {
 
             var obj = {
               "username": user.username,
-              "valid_date": new Date(user.valid_date)
+              "valid_date": user.valid_date
             };
 
             console.log(obj,'obj');

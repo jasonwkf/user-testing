@@ -4,19 +4,19 @@
       "id": 1,
       "username": "A01V3t1v3r",
       "password": "A01V3t1v3r",
-      "valid_date": "Novemeber 29, 2021 10:00:00"
+      "valid_date": "Mon Nov 29 2021 10:10 GMT+0800 (Singapore Standard Time)"
     },
     {
       "id": 2,
       "username": "B02V3t1v3r",
       "password": "B02V3t1v3r",
-      "valid_date": "Novemeber 29, 2021 10:30:00"
+      "valid_date": "Wed Dec 8 2021 15:00 GMT+0800 (Singapore Standard Time)"
     },
     {
       "id": 3,
       "username": "C03V3t1v3r",
       "password": "C03V3t1v3r",
-      "valid_date": "Novemeber 29, 2021 11:00:00"
+      "valid_date": "Mon Nov 29 2021 23:59 GMT+0800 (Singapore Standard Time)"
     },
     {
       "id": 4,
@@ -28,19 +28,19 @@
       "id": 5,
       "username": "E05V3t1v3r",
       "password": "E04V3t1v3r",
-      "valid_date": "Novemeber 29, 2021 12:00:00"
+      "valid_date": "Mon Nov 29 2021 23:59 GMT+0800 (Singapore Standard Time)"
     },
     {
       "id": 6,
       "username": "F06V3t1v3r",
       "password": "F06V3t1v3r",
-      "valid_date": "Novemeber 29, 2021 12:30:00"
+      "valid_date": "Mon Nov 29 2021 23:59 GMT+0800 (Singapore Standard Time)"
     },
     {
       "id": 7,
       "username": "G07V3t1v3r",
       "password": "G07V3t1v3r",
-      "valid_date": "Novemeber 29, 2021 13:00:00"
+      "valid_date": "Mon Nov 29 2021 23:59 GMT+0800 (Singapore Standard Time)"
     },
     {
       "id": 8,
@@ -58,7 +58,7 @@
       "id": 10,
       "username": "J10V3t1v3r",
       "password": "J10V3t1v3r",
-      "valid_date": "Novemeber 29, 2021 14:30:00"
+      "valid_date": "Mon Nov 29 2021 23:59 GMT+0800 (Singapore Standard Time)"
     },
     {
       "id": 11,
@@ -70,61 +70,61 @@
       "id": 12,
       "username": "L12V3t1v3r",
       "password": "L12V3t1v3r",
-      "valid_date": "Novemeber 29, 2021 15:30:00"
+      "valid_date": "Mon Nov 29 2021 23:59 GMT+0800 (Singapore Standard Time)"
     },
     {
       "id": 13,
       "username": "M13V3t1v3r",
       "password": "M13V3t1v3r",
-      "valid_date": "Novemeber 29, 2021 16:30:00"
+      "valid_date": "Mon Nov 29 2021 23:59 GMT+0800 (Singapore Standard Time)"
     },
     {
       "id": 14,
       "username": "N14V3t1v3r",
       "password": "N14V3t1v3r",
-      "valid_date": "Novemeber 29, 2021 17:00:00"
+      "valid_date": "Mon Nov 29 2021 23:59 GMT+0800 (Singapore Standard Time)"
     },
     {
       "id": 15,
       "username": "O15V3t1v3r",
       "password": "O15V3t1v3r",
-      "valid_date": "Novemeber 29, 2021 17:30:00"
+      "valid_date": "Mon Nov 29 2021 23:59 GMT+0800 (Singapore Standard Time)"
     },
     {
       "id": 16,
       "username": "P16V3t1v3r",
       "password": "P16V3t1v3r",
-      "valid_date": "Novemeber 29, 2021 18:00:00"
+      "valid_date": "Mon Nov 29 2021 23:59 GMT+0800 (Singapore Standard Time)"
     },
     {
       "id": 17,
       "username": "Q17V3t1v3r",
       "password": "Q17V3t1v3r",
-      "valid_date": "Novemeber 29, 2021 18:30:00"
+      "valid_date": "Mon Nov 29 2021 23:59 GMT+0800 (Singapore Standard Time)"
     },
     {
       "id": 18,
       "username": "R18V3t1v3r",
       "password": "R18V3t1v3r",
-      "valid_date": "Novemeber 29, 2021 19:00:00"
+      "valid_date": "Mon Nov 29 2021 23:59 GMT+0800 (Singapore Standard Time)"
     },
     {
       "id": 19,
       "username": "S19V3t1v3r",
       "password": "S19V3t1v3r",
-      "valid_date": "Novemeber 29, 2021 19:30:00"
+      "valid_date": "Mon Nov 29 2021 23:59 GMT+0800 (Singapore Standard Time)"
     },
     {
       "id": 20,
       "username": "T20V3t1v3r",
       "password": "T20V3t1v3r",
-      "valid_date": "Novemeber 29, 2021 20:00:00"
+      "valid_date": "Fri Nov 26 2021 23:59 GMT+0800 (Singapore Standard Time)"
     },
     {
       "id":21,
       "username": "sphux",
       "password": "123",
-      "valid_date": "Novemeber 23, 2021 17:00:00"
+      "valid_date": "Fri Nov 26 2021 14:00 GMT+0800 (Singapore Standard Time)"
     }
   ]
 }
