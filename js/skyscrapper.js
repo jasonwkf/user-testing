@@ -218,7 +218,7 @@
 
   $('.tag-menu-item').click( function (e) {
     e.preventDefault();
-
+    console.log('trigger');
     $('.tag-menu-item.is-active').removeClass('is-active');
     $(this).addClass('is-active');
     var cat = "." + $(this).data('id');
@@ -232,7 +232,7 @@
 
     $('html, body').animate({
       scrollTop: foo
-    }, 2000);
+    }, 300);
 
   });
 
