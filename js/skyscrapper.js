@@ -211,7 +211,7 @@
     console.log(scrollHeight, x, 'menu tag after');
     $('html, body').animate({
       scrollTop: $(id).offset().top - scrollHeight
-    }, 2000);
+    }, 500);
   });
 
 //==
